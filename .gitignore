@@ -1,3 +1,13 @@
-# Ignore the entire media folder
-Test_set/
-Train_set/
+# Ignore everything
+*
+
+# Keep the .gitignore file
+!.gitignore
+
+# Keep the script folder
+!script/
+!script/**
+
+# Keep the demo video folder
+!Testing_Demo_video/
+!Testing_Demo_video/**
